@@ -13,14 +13,13 @@ body {
 }
 
 nav {
-    /* padding-bottom: 12px; */
-    padding-top: 10px;
-    background-color: #313131;
+    background: #313131;
+    padding-top: 12px;
 }
 
 .list {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .list_item {
@@ -28,39 +27,120 @@ nav {
     font-size: 14px;
     color: #FFFFFF;
 }
-.box{
+
+.box {
     display: flex;
-    align-items: center;
     gap: 30px;
-    color: #FFFFFF;
+    color: white;
 }
 
-
-.phone_number a{
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.dos a{
+.phone_number .phone {
+    font-weight: 400;
+    font-size: 14px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 10px;
 }
 
-.inp{
-    color: gray;
-    border-radius: 1px;
+.dostavka {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+
+/* ------------- header start ------------- */
+header {
+    padding-top: 20px;
+}
+
+.inp {
+    border: 1px solid #E6E6E6;
     outline: none;
     padding: 14px 480px 14px 50px;
+    color: gray;
 }
 
-header{
-    padding-top: 10px;
+.fa-heart {
+    font-size: 20px;
 }
 
-.fa-solid{
-    margin-right: 10px;
+.fa-bag-shopping {
+    font-size: 20px;
 }
 
+.fa-address-book {
+    font-size: 20px;
+}
+
+
+.bac {
+    padding: 10px;
+    /* margin-left: 125px; */
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px #00000012;
+
+}
+
+.header__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    color: #D74444;
+}
+
+.header__list :hover {
+    color: red;
+    transition: 0.5s ease;
+}
+
+.header__list i {
+    height: 19px;
+    width: 65px;
+    left: 345px;
+    top: 153.109130859375px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text {
+    margin: 150px;
+    position: absolute;
+    /* top: 0px; */
+}
+
+.tex_one {
+    text-transform: uppercase;
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.collr{
+    background-color: #FFFFFF;
+    color: #414141;
+    border: solid 1px black;
+    border-radius: 0ch;
+    width: 216px;
+    padding: 5px;
+}
 
